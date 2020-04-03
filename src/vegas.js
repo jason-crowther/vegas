@@ -1,7 +1,5 @@
-
+import jquery from 'jquery';
 (function ($) {
-    'use strict';
-
     var defaults = {
         slide:                   0,
         delay:                   5000,
@@ -739,4 +737,4 @@
         return !/(Android|webOS|Phone|iPad|iPod|BlackBerry|Windows Phone)/i.test(navigator.userAgent);
     };
 
-})(window.jQuery || window.Zepto);
+})(jquery);

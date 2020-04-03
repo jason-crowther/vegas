@@ -1,16 +1,14 @@
 /*!-----------------------------------------------------------------------------
  * Vegas - Fullscreen Backgrounds and Slideshows.
- * v2.4.4 - built 2018-10-30
+ * v2.4.4 - built 2020-04-03
  * Licensed under the MIT License.
  * http://vegas.jaysalvat.com/
  * ----------------------------------------------------------------------------
- * Copyright (C) 2010-2018 Jay Salvat
+ * Copyright (C) 2010-2020 Jay Salvat
  * http://jaysalvat.com/
  * --------------------------------------------------------------------------*/
-
+import jquery from 'jquery';
 (function ($) {
-    'use strict';
-
     var defaults = {
         slide:                   0,
         delay:                   5000,
@@ -748,4 +746,4 @@
         return !/(Android|webOS|Phone|iPad|iPod|BlackBerry|Windows Phone)/i.test(navigator.userAgent);
     };
 
-})(window.jQuery || window.Zepto);
+})(jquery);
